@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(28, 26, 26);
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    border: 2px solid white;
+    padding: 20px;  
+}
+.butimg{
+    background:transparent;
+    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    -webkit-tap-highlight-color: transparent;
+}
+.butimg:active{
+    opacity: .7;
+}
+.butimg img{
+    width: 50px;
+
+}
+#rand1,#rand2{
+    width:60px;
+}
+#rand2{
+    width: 60px;
+}
+.whoWon{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.compmoves,#mymoves{
+    display: inline-block;
+    font-size: 18px;
+}
+.wins,.ties,.loses{
+    margin-top: 10px;
+}
+#resetButton,.automatic{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0.5rem;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+#resetButton:active , .automatic:active{
+    opacity: .7;
+}
